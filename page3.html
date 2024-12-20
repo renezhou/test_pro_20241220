@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>第三页</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/clock.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/page2.html">Other page</a>
+      <a href="/page3.html" aria-current="page">第三页</a>
+    </nav>
+    <main>
+      <h1>我的第三页</h1>
+      <div class="clock-container">
+        <canvas class="analog-clock" width="300" height="300"></canvas>
+        <div class="digital-clocks-container">
+          <div class="digital-clock-wrapper">
+            <div class="digital-clock" id="clock1"></div>
+            <div class="timezone-label">北京</div>
+          </div>
+          <div class="digital-clock-wrapper">
+            <div class="digital-clock" id="clock2"></div>
+            <div class="timezone-label">上海</div>
+          </div>
+          <div class="digital-clock-wrapper">
+            <div class="digital-clock" id="clock3"></div>
+            <div class="timezone-label">广州</div>
+          </div>
+          <div class="digital-clock-wrapper">
+            <div class="digital-clock" id="clock4"></div>
+            <div class="timezone-label">深圳</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
